@@ -110,6 +110,7 @@
 - (id)init {
     self = [super init];
     [self loadPhotosFromGallery];
+    // ...
     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:
                           @"読み取り成功"
                                                     message:
