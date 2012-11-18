@@ -7,13 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import <FacebookSDK/FacebookSDK.h>
 @class ViewController;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
+{
+    UIImage *pass_img;
+    NSInteger *pass_img_id;
+}
 
 @property (strong, nonatomic) UIWindow *window;
 
 @property (strong, nonatomic) ViewController *viewController;
+@property (strong,nonatomic) UIImage *pass_img;
+@property  NSInteger *pass_img_id;
 
 @end
